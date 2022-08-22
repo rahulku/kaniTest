@@ -35,7 +35,7 @@ fn main() {
     // TODO: determine whether the following is defined
     let mut u = U { f: () };
     unsafe {
-        u.g = 43;
+        u.g = 42;
         u.f = ();
         assert!(u.g == 42);
     }
