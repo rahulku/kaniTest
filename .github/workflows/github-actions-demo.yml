@@ -13,4 +13,4 @@ jobs:
           cargo-kani setup
 
       - name: Run Kani
-        run: kani main.rs
+        run: cargo kani
